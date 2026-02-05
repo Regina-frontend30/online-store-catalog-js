@@ -5,6 +5,7 @@ import { initCatalog } from "./components/catalog.js";
 import { initBasket } from "./components/basket.js";
 import { initAccordion } from "./components/accordion.js";
 import { initSlider } from "./components/slider.js";
+import { initForm } from "./components/form.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
   initMenu();
@@ -14,4 +15,5 @@ window.addEventListener("DOMContentLoaded", async () => {
   initBasket(products);
   initAccordion();
   initSlider(products);
+  initForm();
 });
